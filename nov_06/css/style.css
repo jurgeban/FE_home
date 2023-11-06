@@ -1,0 +1,30 @@
+body {
+	background-color: #d7e5e8;
+	padding: 70px 20px 0 20px;
+	box-sizing: border-box;
+}
+.wrapper {
+	background-color: #fefefe;
+	display: table;
+	margin: 0 auto;
+	padding: 30px 30px 30px 150px;
+} 
+ul {
+	font-size: 15px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 22px;
+}
+.table1 {
+	margin-top: 18px;
+}
+.table1 td,
+.table1 th,
+.table1 {
+	border: 1px solid black;
+}
+.table1 img {
+	width: 40px;
+	height: 26px;
+}
