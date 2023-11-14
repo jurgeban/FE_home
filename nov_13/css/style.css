@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  text-decoration: none;
+}
+body {
+  padding: 0 10px;
+   
+}
+.block {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border: 4px solid black;
+  margin-bottom: 40px;
+}
+.squere {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+}
+
+.red {
+ background-color: red;
+ top: 30px;
+ left: 30px;
+ z-index: 2;
+}
+.blue {
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 1;
+}
+.green {
+  background-color: green;
+  top: 90px;
+  left: 90px;
+  z-index: 2;
+}
+/*-------------------------*/
+.r1 {
+  border: 1px solid red;
+  top: 60px;
+  left: 30px;
+  z-index: 2;
+}
+.b1 {
+  border: 1px solid blue;
+  top: 60px;
+  left: 100px;
+  z-index: 1;
+}
+.g1 {
+   border: 1px solid green;
+   top: 60px;
+   left: 170px;
+   z-index: 2;
+}
+/*-------------------------*/
+.r2 {
+  background-color: red;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+.b2{
+   background-color: blue;
+   top: 60px;
+   left: 60px;
+   z-index: 2;
+}
+.g2 {
+   background-color: green;
+   top: 90px;
+   left: 90px;
+   z-index: 1;
+}
+/*-------------------------*/
+.r3 {
+  border: 1px solid red;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+.b3 {
+  border: 1px solid blue;
+  top: 60px;
+  left: 60px;
+  z-index: 1;
+}
+.g3 {
+  border: 1px solid green;
+  top: 90px;
+  left: 90px;
+  z-index: 2;
+}
+/*-------------------------*/
+.r4 {
+  background-color: red;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+.b4{
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
+.g4 {
+  background-color: green;
+  top: 90px;
+  left: 90px;
+  z-index: 1;
+}
+/*-------------------------*/
+.r5 {
+  background-color: red;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+.b5{
+  background-color: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
+.g5 {
+  background-color: green;
+  top: 90px;
+  left: 90px;
+  z-index: 3;
+}
+
