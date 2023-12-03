@@ -1,0 +1,25 @@
+div {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+}
+#existingElement {
+	background-color: green;
+} 
+#parentElement, .removeMe {
+  background-color: orange;
+}
+
+
+.shop {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product {
+ margin: 10px;
+ min-width: 70px;
+ max-width: 90px;
+ border-radius: 4px;
+
+}
