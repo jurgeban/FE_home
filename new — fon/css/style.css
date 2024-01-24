@@ -1,0 +1,19 @@
+body {
+	position: relative;
+	padding-top: 20px;	text-align: center;
+}
+img {
+	marker: 0 auto;
+}
+.text {
+	position: absolute;
+	font-size: 37px;
+	color: #000;
+/*	text-shadow: #e0e0e0 1px 1px 0;*/
+	top: 650px;
+	left: 870px;
+	font-weight: bold;
+
+/*text-shadow: #fff 1.5px 3px 5px;*/
+
+}
